@@ -1,3 +1,6 @@
+
+-----
+
 ````markdown
 # Trabalho Final: Estruturas de Dados Não Lineares (Árvores e Grafos)
 
@@ -8,7 +11,7 @@
 > **Curso:** Análise e Desenvolvimento de Sistemas (ADS)  
 > **Disciplina:** Estrutura de Dados  
 > **Professor:** Marcelo Ciacco de Almeida  
-> **Aluno:** Márcio Augusto Garcia Soares - 24000138
+> **Aluno:** Márcio Augusto Garcia Soares - 24000138 
 
 ---
 
@@ -107,6 +110,7 @@ npx ts-node src/exemplo2_grafos/index.ts
   * **Runtime:** Node.js
   * **Execução:** ts-node
   * **Visualização:** Mermaid.js (no README)
+
 -----
 
 *Trabalho entregue em Novembro de 2025.*
