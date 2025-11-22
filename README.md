@@ -1,6 +1,3 @@
-
------
-
 ````markdown
 # Trabalho Final: Estruturas de Dados Não Lineares (Árvores e Grafos)
 
@@ -11,7 +8,7 @@
 > **Curso:** Análise e Desenvolvimento de Sistemas (ADS)  
 > **Disciplina:** Estrutura de Dados  
 > **Professor:** Marcelo Ciacco de Almeida  
-> **Aluno:** Márcio Augusto Garcia Soares - 24000138 
+> **Aluno:** Márcio Augusto Garcia Soares - 24000138  
 
 ---
 
@@ -26,15 +23,16 @@ Este repositório contém a implementação prática dos conceitos de estruturas
 Implementação de uma classe genérica de Árvore Binária, onde cada nó possui no máximo dois filhos. A estrutura organiza os dados de forma que os valores menores fiquem à esquerda e os maiores à direita, otimizando a busca.
 
 ### Representação Visual (Gerada via Mermaid)
+
 ```mermaid
-graph TD;
-    10((10)) --> 5((5));
-    10 --> 15((15));
-    5 --> 2((2));
-    5 --> null1[null];
-    15 --> null2[null];
-    15 --> null3[null];
-    
+graph TD
+    10((10)) --> 5((5))
+    10 --> 15((15))
+    5 --> 2((2))
+    5 --> N1[Nulo]
+    15 --> N2[Nulo]
+    15 --> N3[Nulo]
+
     style 10 fill:#f9f,stroke:#333,stroke-width:2px
     style 5 fill:#bbf,stroke:#333,stroke-width:2px
     style 15 fill:#bbf,stroke:#333,stroke-width:2px
@@ -55,12 +53,12 @@ O algoritmo implementado resolve a ordem correta de instalação (Bottom-Up) par
 ### Diagrama do Cenário Implementado
 
 ```mermaid
-graph TD;
-    Projeto_Final_Marcelo --> React;
-    Projeto_Final_Marcelo --> TypeScript;
-    React --> Webpack;
-    TypeScript --> Node_JS_Core;
-    Webpack --> Node_JS_Core;
+graph TD
+    Projeto_Final_Marcelo --> React
+    Projeto_Final_Marcelo --> TypeScript
+    React --> Webpack
+    TypeScript --> Node_JS_Core
+    Webpack --> Node_JS_Core
 
     style Projeto_Final_Marcelo fill:#f96,stroke:#333,stroke-width:4px
     style Node_JS_Core fill:#6f6,stroke:#333,stroke-width:2px
@@ -70,15 +68,15 @@ graph TD;
 
 ## 🚀 Como Rodar o Projeto
 
-Este projeto utiliza **TypeScript** e **ts-node**. Siga os passos abaixo para testar em sua máquina.
+Este projeto utiliza **TypeScript** e **ts-node**.
 
 ### Pré-requisitos
 
   * Node.js instalado.
 
-### 1\. Clonar e Instalar
+### 1\. Instalar Dependências
 
-Abra o terminal na pasta do projeto e instale as dependências necessárias:
+Abra o terminal na pasta raiz do projeto e instale as dependências:
 
 ```bash
 npm install
@@ -86,20 +84,21 @@ npm install
 
 ### 2\. Executar o Exemplo de Árvore
 
-Para ver a Árvore Binária sendo montada e exibida no console:
+Entre na pasta do exemplo 1 e execute:
 
 ```bash
-npx ts-node src/exemplo1_arvore/index.ts
-# (Ajuste o caminho conforme sua estrutura de pastas)
+cd exemplo1
+npx ts-node src/index.ts
 ```
 
 ### 3\. Executar o Exemplo de Grafos (Estudo de Caso)
 
-Para ver o algoritmo calculando a ordem de instalação dos pacotes para o professor Marcelo:
+Entre na pasta do exemplo 2 e execute o simulador:
 
 ```bash
-npx ts-node src/exemplo2_grafos/index.ts
-# (Ajuste o caminho conforme sua estrutura de pastas)
+cd ..
+cd exemplo2
+npx ts-node src/index.ts
 ```
 
 -----
@@ -109,11 +108,11 @@ npx ts-node src/exemplo2_grafos/index.ts
   * **Linguagem:** TypeScript
   * **Runtime:** Node.js
   * **Execução:** ts-node
-  * **Visualização:** Mermaid.js (no README)
+  * **Visualização:** Mermaid.js (Diagramas no README)
 
 -----
 
-*Trabalho entregue em Novembro de 2025.*
+*Trabalho entregue em 25 de Novembro de 2025.*
 
 ```
 ```
