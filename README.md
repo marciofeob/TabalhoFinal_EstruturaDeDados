@@ -1,3 +1,11 @@
+O problema está exatamente na **primeira linha** do seu arquivo.
+
+Você copiou a tag ` ```markdown ` que apareceu na minha resposta anterior. Quando você coloca isso no início do arquivo, o GitHub acha que o **arquivo inteiro** é um bloco de código, por isso ele não desenha o gráfico da Parte 1 e mostra o texto "quebrado".
+
+**A solução é simples:** O arquivo **NÃO** pode começar com crases (` ``` `). Ele tem que começar direto com a hashtag (`#`).
+
+Copie o código abaixo. Eu removi qualquer formatação externa. **Copie e substitua tudo no seu arquivo:**
+
 ````markdown
 # Trabalho Final: Estruturas de Dados Não Lineares (Árvores e Grafos)
 
@@ -25,14 +33,14 @@ Implementação de uma classe genérica de Árvore Binária, onde cada nó possu
 ### Representação Visual (Gerada via Mermaid)
 
 ```mermaid
-graph TD
-    10((10)) --> 5((5))
-    10 --> 15((15))
-    5 --> 2((2))
-    5 --> N1[Nulo]
-    15 --> N2[Nulo]
-    15 --> N3[Nulo]
-
+graph TD;
+    10((10)) --> 5((5));
+    10 --> 15((15));
+    5 --> 2((2));
+    5 --> N1[Nulo];
+    15 --> N2[Nulo];
+    15 --> N3[Nulo];
+    
     style 10 fill:#f9f,stroke:#333,stroke-width:2px
     style 5 fill:#bbf,stroke:#333,stroke-width:2px
     style 15 fill:#bbf,stroke:#333,stroke-width:2px
@@ -53,12 +61,12 @@ O algoritmo implementado resolve a ordem correta de instalação (Bottom-Up) par
 ### Diagrama do Cenário Implementado
 
 ```mermaid
-graph TD
-    Projeto_Final_Marcelo --> React
-    Projeto_Final_Marcelo --> TypeScript
-    React --> Webpack
-    TypeScript --> Node_JS_Core
-    Webpack --> Node_JS_Core
+graph TD;
+    Projeto_Final_Marcelo --> React;
+    Projeto_Final_Marcelo --> TypeScript;
+    React --> Webpack;
+    TypeScript --> Node_JS_Core;
+    Webpack --> Node_JS_Core;
 
     style Projeto_Final_Marcelo fill:#f96,stroke:#333,stroke-width:4px
     style Node_JS_Core fill:#6f6,stroke:#333,stroke-width:2px
