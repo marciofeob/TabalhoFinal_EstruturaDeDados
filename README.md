@@ -1,12 +1,3 @@
-O problema está exatamente na **primeira linha** do seu arquivo.
-
-Você copiou a tag ` ```markdown ` que apareceu na minha resposta anterior. Quando você coloca isso no início do arquivo, o GitHub acha que o **arquivo inteiro** é um bloco de código, por isso ele não desenha o gráfico da Parte 1 e mostra o texto "quebrado".
-
-**A solução é simples:** O arquivo **NÃO** pode começar com crases (` ``` `). Ele tem que começar direto com a hashtag (`#`).
-
-Copie o código abaixo. Eu removi qualquer formatação externa. **Copie e substitua tudo no seu arquivo:**
-
-````markdown
 # Trabalho Final: Estruturas de Dados Não Lineares (Árvores e Grafos)
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -44,7 +35,6 @@ graph TD;
     style 10 fill:#f9f,stroke:#333,stroke-width:2px
     style 5 fill:#bbf,stroke:#333,stroke-width:2px
     style 15 fill:#bbf,stroke:#333,stroke-width:2px
-````
 
 -----
 
