@@ -36,8 +36,6 @@ graph TD;
     style 5 fill:#bbf,stroke:#333,stroke-width:2px
     style 15 fill:#bbf,stroke:#333,stroke-width:2px
 
------
-
 ## 🕸️ Parte 2: Grafos - Estudo de Caso (Dependências)
 
 Nesta etapa, modelamos o problema de **instalação de pacotes de software**.
