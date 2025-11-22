@@ -11,14 +11,14 @@
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 Este repositório contém a implementação prática dos conceitos de estruturas de dados não lineares, desenvolvidos em **TypeScript**. O trabalho divide-se em duas partes fundamentais:
 1.  **Árvores Binárias de Busca (BST):** Implementação de uma estrutura hierárquica.
 2.  **Grafos (Estudo de Caso):** Simulação de um gerenciador de dependências (como o NPM) utilizando Grafos Dirigidos e Ordenação Topológica.
 
 ---
 
-## 🌳 Parte 1: Árvores (Binary Search Tree)
+## Parte 1: Árvores (Binary Search Tree)
 Implementação de uma classe genérica de Árvore Binária, onde cada nó possui no máximo dois filhos. A estrutura organiza os dados de forma que os valores menores fiquem à esquerda e os maiores à direita, otimizando a busca.
 
 ### Representação Visual (Gerada via Mermaid)
@@ -64,7 +64,7 @@ graph TD;
 
 -----
 
-## 🚀 Como Rodar o Projeto
+## Como Rodar o Projeto
 
 Este projeto utiliza **TypeScript** e **ts-node**.
 
